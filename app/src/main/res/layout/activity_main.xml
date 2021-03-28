@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3eee8"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="30dp"
+            android:text="Row1"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textSize="24sp"
+            android:background="#7ab2b9"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_weight="2"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="30dp"
+                android:text="Row2\nCol1"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:background="#7ab2b9"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="Row2\nCol2"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:background="#7ab2b9"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                android:text="Row3\nCol1"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:background="#7ab2b9"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="Row3\nCol2"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:background="#7ab2b9"/>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:layout_marginRight="30dp"
+                android:text="Row3\nCol3"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:background="#7ab2b9"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="30dp"
+            android:text="Row4"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textSize="24sp"
+            android:background="#7ab2b9"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
